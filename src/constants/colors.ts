@@ -6,4 +6,6 @@ export const colors = {
   desc: '#e6e6e6',
   blue: '#3618e0b3',
   white: '#fafafa',
+  green: 'rgba(18, 181, 22, 0.9)',
+  success: 'green'
 };

@@ -1,8 +1,14 @@
-import {Platform, StyleSheet} from 'react-native';
-import {colors} from '../constants/colors';
-import {fontFamilies} from '../constants/fontFamilies';
+import { Platform, StyleSheet } from 'react-native';
+import { colors } from '../constants/colors';
+import { fontFamilies } from '../constants/fontFamilies';
 
 export const globalStyles = StyleSheet.create({
+  listTaskStyle: {
+    backgroundColor: colors.gray,
+    borderRadius: 10,
+    padding: 7,
+    justifyContent: 'center'
+  },
   container: {
     flex: 1,
     backgroundColor: colors.bgColor,
